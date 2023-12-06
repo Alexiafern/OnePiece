@@ -1,0 +1,272 @@
+{% load static %}
+<!--<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static '../static/css/css/meu_estilo.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .comeco {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.586);
+            text-align: center;
+        }
+
+        .conteudo {
+            padding: 20px;
+        }
+
+        .slide img {
+            width: 100%;
+        }
+
+        .card {
+            background-color: #2e63a357;
+            color: white;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="slide">
+            <img class="d-block w-100" src="../static/css/imgs/One-Piece-Logo.png" alt="First slide">
+        </div>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/luffy.webp" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Monkey D. Luffy</h5>
+                    <p class="card-text">Ele é apresentado como um jovem cujo corpo ganha as propriedades de borracha após ter comido a Gomu-Gomu no Mi, uma das várias frutas amaldiçoadas conhecidas como Akuma no Mi ou Frutas do Diabo.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/zoro_fundo.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Roronoa Zoro</h5>
+                    <p class="card-text">Roronoa Zoro, é um personagem fictício da série One Piece criada por Eiichiro Oda. Na história, Zoro era um caçador de piratas que por fim se torna um quando é convencido pelo protagonista Monkey D. Luffy a ser o primeiro membro de sua tripulação, os Piratas do Chapéu de Palha.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/sanji.jfif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sanji</h5>
+                    <p class="card-text">Vinsmoke Sanji é um personagem criado por Eiichiro Oda para o seu mangá e anime One Piece. Ele é introduzido ainda na primeira saga da história como um cozinheiro do restaurante-navio Baratie e depois passa a trabalhar para o capitão Monkey D. Luffy no seu bando dos Piratas do Chapéu de Palha.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/catarina.jfif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Catarina Devon</h5>
+                    <p class="card-text">Catarina Devon, conhecida como "Caçadora da Lua Crescente", foi a mulher pirata mais perigosa já presa em Impel Down em toda a era dos piratas. Ela foi libertada por Marshall D. Teach, e atualmente é o único membro feminino conhecido de sua tripulação.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/shanks.jfif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Shanks</h5>
+                    <p class="card-text">Navegando com os infames Piratas do Roger desde criança, Shanks começaria sua carreira de pirata em seu navio como um aprendiz ao lado de Buggy, antes de formar sua própria tripulação depois da morte de Roger.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/kuina.jfif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Kuina</h5>
+                    <p class="card-text">Shimotsuki Kuina foi amiga de infância, parente e rival de Roronoa Zoro. Ela era filha de Shimotsuki Koushirou e descendente da famosa Família Shimotsuki do País de Wano. Sua morte aos onze anos impulsionou muitas das ambições de Zoro como espadachim, incluindo seu desenvolvimento do Santoryu.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card-deck">
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/boga.jfif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Buggy</h5>
+                    <p class="card-text">Buggy, o Palhaço Estrela é o capitão dos Piratas Buggy bem como o co-líder da Aliança Buggy e Alvida, e um ex-aprendiz dos Piratas do Roger ao lado de Shanks.Após a Batalha de Marineford, ele se tornou membro dos Shichibukai e líder da organização de despacho pirata "Buggy's Delivery".</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/chopper.jpeg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Tony Tony Chopper</h5>
+                    <p class="card-text">Tony Tony Chopper, também conhecido como "Amante de Algodão Doce", é um personagem fictício da série de mangá One Piece criada por Eiichiro Oda. Ele é o sexto membro a se juntar e o médico dos Piratas do Chapéu de Palha. Chopper é freqüentemente apresentado em mercadorias oficiais, servindo como mascote da série.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/usopp.webp" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Usopp</h5>
+                    <p class="card-text">Usopp é um personagem fictício da série em mangá One Piece criada por Eiichiro Oda. Ele faz parte do grupo principal, os Piratas do Chapéu de Palha, onde atua primariamente como atirador mas quando necessário cumpre outras posições como inventor, escultor e pintor.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/nami.jfif" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nami</h5>
+                    <p class="card-text">Nami, é uma personagem fictícia do mangá e anime One Piece criada por Eiichiro Oda. Nami é introduzida na narrativa como uma aliada oportunista do protagonista Monkey D. Luffy mas que possui motivos nobres por trás de suas ações ambíguas.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/Sabo.webp" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Sabo</h5>
+                    <p class="card-text">Sabo, o "Imperador das Chamas", é o chefe de gabinete do Exército Revolucionário, reconhecido como o "Nº 2" de toda a organização, sendo este o ranking diretamente abaixo de Monkey D. Dragon, o Comandante Supremo. Ele também é irmão jurado dos infames piratas Portgas D. Ace e Monkey D. Luffy.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top" src="../static/css/imgs/nico-robin.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Nico Robin</h5>
+                    <p class="card-text">Nico Robin é uma personagem fictícia da obra japonesa One Piece de Eiichiro Oda. Inicialmente uma antagonista, ela depois convence o capitão Monkey D. Luffy a deixá-la entrar no seu bando dos Piratas do Chapéu de Palha. </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+        </div>
+
+
+        
+        
+    </div>
+</body>
+
+</html>-->
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static '../static/css/css/meu_estilo.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .comeco {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.586);
+            text-align: center;
+        }
+
+        .conteudo {
+            padding: 20px;
+        }
+
+        .slide img {
+            width: 100%;
+        }
+
+        .card {
+            background-color: #2e63a357;
+            color: white;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="slide">
+            <img class="d-block w-100" src="../static/css/imgs/One-Piece-Logo.png" alt="First slide">
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/css/imgs/luffy.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Monkey D. Luffy</h5>
+                        <p class="card-text">Ele é apresentado como um jovem cujo corpo ganha as propriedades de borracha após ter comido a Gomu-Gomu no Mi, uma das várias frutas amaldiçoadas conhecidas como Akuma no Mi ou Frutas do Diabo.</p><br>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/css/imgs/zoro_fundo.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Roronoa Zoro</h5>
+                        <p class="card-text">Roronoa Zoro, é um personagem fictício da série One Piece criada por Eiichiro Oda. Na história, Zoro era um caçador de piratas que por fim se torna um quando é convencido pelo protagonista Monkey D. Luffy a ser o primeiro membro de sua tripulação, os Piratas do Chapéu de Palha. </p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/css/imgs/nami.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Nami</h5>
+                        <p class="card-text">Nami, é uma personagem fictícia do mangá e anime One Piece criada por Eiichiro Oda. Nami é introduzida na narrativa como uma aliada oportunista do protagonista Monkey D. Luffy mas que possui motivos nobres por trás de suas ações ambíguas.</p><br>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/css/imgs/usopp.webp" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Usopp</h5>
+                        <p class="card-text">Usopp é um personagem fictício da série em mangá One Piece criada por Eiichiro Oda. Ele faz parte do grupo principal, os Piratas do Chapéu de Palha, onde atua primariamente como atirador mas quando necessário cumpre outras posições como inventor, escultor e pintor. <br></p><br>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/css/imgs/sanji.jfif" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Sanji</h5>
+                        <p class="card-text">Vinsmoke Sanji é um personagem criado por Eiichiro Oda para o seu mangá e anime One Piece. Ele é introduzido ainda na primeira saga da história como um cozinheiro do restaurante-navio Baratie e depois passa a trabalhar para o capitão Monkey D. Luffy no seu bando dos Piratas do Chapéu de Palha.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div><div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="../static/css/imgs/chopper.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Tony Tony Chopper</h5>
+                        <p class="card-text">Tony Tony Chopper é uma rena. Ele é o médico da tripulação dos Piratas do Chapéu de Palha. Chopper é uma rena que, após comer a Hito Hito no Mi, adquiriu a habilidade de se transformar e raciocinar como os humanos.</p><br><br>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Repita o bloco do card para os outros personagens -->
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
